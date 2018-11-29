@@ -61,7 +61,7 @@
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn button btn_custom_ghost">Support</button>
+                            <button class="btn button btn_custom_ghost" data-toggle="modal" data-target="#supportModal">Support</button>
                         </li>
                     </ul>
                 </div>
@@ -139,9 +139,9 @@
     <div id="about" class="aboutUs">
         <div class="container">
             <div class="row">
-               <div class="col-md-6 d-none d-md-block">
-                   
-               </div>
+                <div class="col-md-6 d-none d-md-block">
+
+                </div>
                 <div class="col-md-6">
                     <h2>We lead <span class="highlight">From the front</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex libero ullam vero, nemo eum deleniti, consectetur maxime ipsa tempora rem molestiae veritatis quos repudiandae eaque quibusdam dolore quas, recusandae perspiciatis unde.<br><br> Minima saepe magnam amet impedit iure consequuntur mollitia ipsum odio, repellendus adipisci doloremque voluptatem in quibusdam dicta tempore.</p>
@@ -153,7 +153,7 @@
 
     <div class="number">
         <div class="container">
-<!--
+            <!--
            <div class="numberPos">
                 <div class="row">
                     <div class="col text-center">
@@ -189,39 +189,39 @@
                 </div>
             </div>
 -->
-           <div class="row">
+            <div class="row">
                 <div class="col text-center">
                     <h2>WE COMPLETED <span class="highlight">1200 + PROJECTS YEARLY</span></h2>
                 </div>
             </div>
-            
+
             <div class="row">
-                    <div class="col-lg-3 col-sm-6 text-center">
-                        <div class="numberBox">
-                            <h3><span class="highlight">2940+</span></h3>
-                            <p>Completed Projects</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 text-center">
-                        <div class="numberBox">
-                            <h3><span class="highlight">54+</span></h3>
-                            <p>Available Countries</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 text-center">
-                        <div class="numberBox">
-                            <h3><span class="highlight">15+</span></h3>
-                            <p>Employees</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 text-center">
-                        <div class="numberBox">
-                            <h3><span class="highlight">78M+</span></h3>
-                            <p>Worldwide Customers</p>
-                        </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="numberBox">
+                        <h3><span class="highlight">2940+</span></h3>
+                        <p>Completed Projects</p>
                     </div>
                 </div>
-       
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="numberBox">
+                        <h3><span class="highlight">54+</span></h3>
+                        <p>Available Countries</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="numberBox">
+                        <h3><span class="highlight">15+</span></h3>
+                        <p>Employees</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="numberBox">
+                        <h3><span class="highlight">78M+</span></h3>
+                        <p>Worldwide Customers</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -301,14 +301,14 @@
                     </a>
                 </div>
                 <div class="element-item graphic_design">
-                   <a data-fancybox="gallery" href="img/graphic_design1.png">
-                       <img src="img/graphic_design1.png" alt="Graphic Design">
-                   </a>
+                    <a data-fancybox="gallery" href="img/graphic_design1.png">
+                        <img src="img/graphic_design1.png" alt="Graphic Design">
+                    </a>
                 </div>
                 <div class="element-item ui_design">
-                   <a data-fancybox="gallery" href="img/ui_design.png">
-                       <img src="img/ui_design.png" alt="UI Design">
-                   </a>
+                    <a data-fancybox="gallery" href="img/ui_design.png">
+                        <img src="img/ui_design.png" alt="UI Design">
+                    </a>
                 </div>
                 <div class="element-item logo_design">
                     <a data-fancybox="gallery" href="img/logo_design1.png">
@@ -355,7 +355,7 @@
             </div>
 
             <div class="row">
-                <div class="col">                    
+                <div class="col">
                     <form>
                         <div class="form-inline">
                             <input type="text" class="form-control" placeholder="Name" required>
@@ -533,6 +533,47 @@
     <!-- Footer Section End  -->
 
 
+    <!--    Modal   -->
+    <div class="modal fade" id="supportModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase">We are here to help</h5>
+                    <button class="close" type="button" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="text-center mb-3">
+                        <button type="button" class="button button_custom "><i class="fas fa-mobile-alt"></i> +01234 567 8910</button>
+                    </div>
+                    <h5 class="mb-3">Please fill out this form</h5>
+                    <form>
+                        <div class="form-row mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control mb-3" placeholder="Subject">
+                        <textarea rows="7" class="form-control" placeholder="Your Message"></textarea>
+                        <div class="form_btn">
+                            <button type="submit" class="button button_custom" data-dismiss="modal">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
     <!-- Required Javascripts    -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -547,8 +588,10 @@
     <!-- FancyBox js   -->
     <script src="js/jquery.fancybox.min.js"></script>
 
+
+
     <!--    Custom Javascript-->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
