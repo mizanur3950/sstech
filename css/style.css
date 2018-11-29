@@ -420,6 +420,7 @@ footer .footer-social .fab {
     opacity: 0.9;
 }
 
-
-
-
+/*Modal*/
+.modal h5 {
+    font-weight: 600;
+}
