@@ -1,0 +1,191 @@
+@media (min-width:1201px) {
+    footer p {
+        margin: 0;
+    }
+    
+    footer .row {
+        padding-top: 28px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .navbar .nav-link,
+    .navbar .nav-item button {
+        font-size: 0.8rem;
+    }
+
+    .hero-text-box a {
+        font-size: 0.8rem;
+    }
+
+    .hero-text-box h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    #career form {
+        width: 72%;
+    }
+
+    footer .row {
+        padding-top: 28px;
+    }
+
+    footer p {
+        margin-bottom: 0;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+
+    .hero-text-box h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .para {
+        width: 80%;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+    .filters-btns-group button {
+        font-size: 0.8rem;
+        margin-bottom: 25px;
+    }
+
+    #career form {
+        width: 95%;
+    }
+
+    #testimonial .person {
+        width: 40%;
+        margin-top: -80px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .aboutUs {
+        min-height: 400px;
+    }
+
+    .aboutUs h2 {
+        padding-top: 70px;
+    }
+
+    .aboutUs:before {
+        background-image: linear-gradient(to right, #19a5fc, #5d4cfd);
+    }
+
+    .element-item {
+        width: 50%;
+    }
+
+    #career form {
+        width: 90%;
+        display: block;
+    }
+
+    #career input[type=text],
+    #career input[type=email] {
+        width: 100%;
+    }
+
+    #career input[type=text],
+    #career input[type=email],
+    #career button {
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .form_btn {
+        text-align: center;
+    }
+    
+    #testimonial .card {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
+    #testimonial .person {
+        margin-top: -120px;
+    }
+    
+    #contact input[type=text] {
+        margin-bottom: 15px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    footer p{
+        margin-bottom: 10px;
+    }
+    
+    footer .footer-social {
+        float: none;
+        margin-bottom: 25px;
+    }
+    
+}
+
+@media only screen and (max-width:576px) {
+    #testimonial .person {
+        margin-top: -30%;
+    }
+}
+
+@media only screen and (max-width:335px) {
+    .hero-text-box h1 {
+        line-height: 30px;
+    }
+    
+    .hero-text-box p {
+        line-height: 20px;
+    }
+    
+    a {
+        font-size: 0.6rem;
+    }
+    
+    .aboutUs h2 {
+        padding-top: 30px;
+    }
+    
+    .hero-text-box .button,
+    .aboutUs .button {
+        padding: 7px 20px;
+    }
+    
+    .aboutUs .button {
+        margin-bottom: 30px;
+        font-size: 0.6rem;
+    }
+    
+    .number h2 {
+        padding-top:30px;
+    }
+    
+    #testimonial .person {
+        margin-top: -60px;
+    }
+}
